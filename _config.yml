@@ -30,9 +30,13 @@ twitter_username: DanDanowski
 github_username:  dandanowski
 show_excerpts: true
 
-domain: dandanowski.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://dandanowski.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /      # place folder name if the site is served in a subfolder
+domain: dandanowski.com
+url: https://dandanowski.com
+baseurl: /
+
+# domain: dandanowski.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+# url: https://dandanowski.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+# baseurl: /      # place folder name if the site is served in a subfolder
 
 # Build settings
 # theme: minima
