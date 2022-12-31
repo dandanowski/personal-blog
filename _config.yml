@@ -42,6 +42,7 @@ baseurl: /
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 permalink: pretty
 
 collections_dir: content
