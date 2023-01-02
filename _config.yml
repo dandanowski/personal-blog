@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Dan Danowski
+title: Dan.Danow.ski
+author: Dan Danowski
 email: dan.danowski@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My personal site, where I finally try to keep up to date for my future self,
+  and for those who might find it useful along their way.
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://dan.danow.ski" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DanDanowski
@@ -46,13 +46,15 @@ plugins:
 permalink: pretty
 
 collections_dir: content
-collections: 
-  wrote on:
+collections:
+  labs:
     output: true
-    permalink: /:collection/:path
-  wrote about:
-    output: true
-    permalink: /:collection/:title
+  # wrote:
+  #   output: true
+  #   permalink: /:collection/:path
+  # wrote/about:
+  #   output: true
+  #   permalink: /:collection/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
