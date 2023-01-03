@@ -1,11 +1,12 @@
-- name: Home
+- name: Start
   link: /
 
 - name: Notebook
   link: /wrote
 
+- name: Labs
+  link: /labs
+
 - name: About
   link: /about
   
-- name: Labs
-  link: /labs
