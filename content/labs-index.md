@@ -1,7 +1,7 @@
 ---
 layout: category-list
-permalink: /labs/
-title: Labs
+permalink: /s/lab/
+title: Lab
 this-collection: labs
 ---
 Some text before the list of pages.

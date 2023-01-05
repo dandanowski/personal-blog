@@ -2,11 +2,11 @@
   link: /
 
 - name: Notebook
-  link: /wrote
+  link: /s/notebook
 
-- name: Labs
-  link: /labs
+- name: Lab
+  link: /s/lab
 
 - name: About
-  link: /about
+  link: /s/backstory
   

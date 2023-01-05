@@ -1,18 +1,14 @@
 ---
 layout: page
 title: About me
-permalink: /about/
+permalink: /s/backstory
 ---
+Well, you clicked on the link so you must really want to know.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Orignally from Long Island, New York, I made my way through college in Upstate New York at Hartwick College and graduate with a degree in Geology. Naturally that led me to a career in web design. After graduating, I worked at Cornell University in various webmastery/web design roles before moving to Northern Ireland where I currently reside.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am a husband, father of three kids, two cats, and a dog. I am a regular at the 6:30am CrossFit class in town three days a week and I coach 7-8 year olds rugby at the rugby club.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+That's about as exciting as it gets personally.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Professionally, I've tried to keep my [CV](/s/cv) up to date.

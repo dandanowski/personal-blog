@@ -1,6 +1,6 @@
 ---
 layout: blog-list
-permalink: /wrote/
+permalink: /s/notebook/
 title: Notebook
 ---
 Some text before the list of pages.
