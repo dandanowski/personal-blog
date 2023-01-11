@@ -48,12 +48,13 @@ $postit-shadow-raised: 8px 8px 24px rgba(0,0,0,0.08);
             & > p {
                 flex: 1;
             }
-            .post-meta {
-                padding-block-end: 16px;
-                font-family: $caption-font-family;
-                font-weight: $caption-font-weight;
-                font-size: $caption-font-size;
-            }
         }
     }
+}
+
+.post-meta {
+    padding-block-end: 16px;
+    font-family: $caption-font-family;
+    font-weight: $caption-font-weight;
+    font-size: $caption-font-size;
 }
