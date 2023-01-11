@@ -26,9 +26,12 @@ $postit-shadow-raised: 8px 8px 24px rgba(0,0,0,0.08);
         gap: 40px;
         margin-block-end: 40px;
         li {
+            display: flex;
+            flex-direction: column;
             margin: 0;
-            padding: 40px;
+            padding: 32px 40px 40px;
             background: $surface-color;
+            border-radius: 4px;
             transform: rotate(-2deg);
             box-shadow: $postit-shadow;
             transition: all .2s ease-in;
@@ -36,6 +39,12 @@ $postit-shadow-raised: 8px 8px 24px rgba(0,0,0,0.08);
                 transform: rotate(0);
                 scale: 1.05;
                 box-shadow: $postit-shadow-raised;
+            }
+            & > * {
+                flex: 0;
+            }
+            & > p {
+                flex: 1;
             }
         }
     }
