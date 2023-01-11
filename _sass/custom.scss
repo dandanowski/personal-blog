@@ -20,6 +20,7 @@ $spacing-unit:     24px !default;
 
 $text-color:       #000000CC !default;
 $background-color: #eee !default;
+$surface-color:    #fff !default;
 $brand-color:      green !default;
 
 $grey-color:       #00000033 !default;
@@ -55,5 +56,6 @@ $on-laptop:        800px !default;
 @import
   "custom/base",
   "custom/layout",
+  "custom/special-bits",
   "custom/syntax-highlighting"
 ;
