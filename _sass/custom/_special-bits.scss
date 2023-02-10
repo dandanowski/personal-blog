@@ -1,36 +1,39 @@
 $postit-shadow: 4px 4px 16px rgba(0,0,0, 0.12);
 $postit-shadow-raised: 8px 8px 24px rgba(0,0,0,0.08);
+$postit-shadow: 4px 4px 4px rgba(0,0,0, 0.48);
+$postit-shadow-raised: 4px 4px 8px rgba(0,0,0,0.24);
 
-.intro {
-    position: absolute;
-    top: -120px;
-    right: -64px;
-    width: 360px;
-    margin: 0 0 80px;
-    padding: 32px 40px;
-    background: $surface-color;
-    border-radius: 16px;
-    box-shadow: $postit-shadow;
-    border-block-end: 1px solid $grey-color-dark;
-    transform: scale(0.8) rotate(1.5deg);
-    h1 {
-        font-size: 2.4rem;
-    }
-    h3 {
-        text-align: right;
-    }
-}
 
 .home {
-    position: relative;
-    // margin-block-start: 16px;
-    .page-heading {
-        width: 50%;
-        margin-block-end: 80px;
-        line-height: 1em;
+    margin-block-start: -48px;
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 16px;
+        justify-content: space-between;
+        align-items: center;
+        .intro {
+            flex: 3;
+            position: relative;
+            top: -64px;
+            right: -64px;
+            padding: 32px 40px;
+            background: $surface-color;
+            border-radius: 16px;
+            border-block-end: 1px solid $grey-color-dark;
+            transform: scale(0.8) rotate(1.5deg);
+            h1 {
+                font-size: 2.4rem;
+                line-height: 3.2rem;
+            }
+            h3 {
+                text-align: right;
+            }
+        }
     }
-    .post-list-heading {
-        margin-block-end: 40px;
+    .page-heading {
+        flex: 2;
+        line-height: 1em;
     }
     .post-list {
         display: grid;
@@ -47,7 +50,7 @@ $postit-shadow-raised: 8px 8px 24px rgba(0,0,0,0.08);
             border-radius: 8px;
             transform: rotate(-1deg);
             box-shadow: $postit-shadow;
-            transition: all .2s ease-in;
+            transition: all .2s ease-out;
             &:hover {
                 border-color: rgba($brand-color, .5);
                 transform: rotate(0);
@@ -63,6 +66,15 @@ $postit-shadow-raised: 8px 8px 24px rgba(0,0,0,0.08);
         }
     }
     @media screen and (max-width: 680px) {
+        header {
+            display: block;
+            .intro {
+                top: 0;
+                right: 0;
+                margin-bottom: 40px;
+                transform: rotate(1.5deg);
+            }
+        }
         .post-list {
             display: block;
             li {
