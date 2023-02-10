@@ -2,21 +2,33 @@ $postit-shadow: 4px 4px 16px rgba(0,0,0, 0.12);
 $postit-shadow-raised: 8px 8px 24px rgba(0,0,0,0.08);
 
 .intro {
-    // position: absolute;
-    // width: 460px;
+    position: absolute;
+    top: -120px;
+    right: -64px;
+    width: 360px;
     margin: 0 0 80px;
-    padding: 0 0 40px;
-    // background: $surface-color;
-    // transform: rotate(1.5deg);
-    // border-radius: 16px;
-    // box-shadow: $postit-shadow;
+    padding: 32px 40px;
+    background: $surface-color;
+    border-radius: 16px;
+    box-shadow: $postit-shadow;
     border-block-end: 1px solid $grey-color-dark;
-    h3, h4 {
-        margin: 0 0 0 50%;
+    transform: scale(0.8) rotate(1.5deg);
+    h1 {
+        font-size: 2.4rem;
+    }
+    h3 {
+        text-align: right;
     }
 }
 
 .home {
+    position: relative;
+    // margin-block-start: 16px;
+    .page-heading {
+        width: 50%;
+        margin-block-end: 80px;
+        line-height: 1em;
+    }
     .post-list-heading {
         margin-block-end: 40px;
     }
