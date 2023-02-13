@@ -23,7 +23,7 @@ $postit-shadow-raised: 4px 4px 8px rgba(0,0,0,0.24);
             border-block-end: 1px solid $grey-color-dark;
             transform: scale(0.8) rotate(1.5deg);
             h1 {
-                font-size: 2.4rem;
+                @include relative-font-size(2.4);
                 line-height: 3.2rem;
             }
             h3 {
