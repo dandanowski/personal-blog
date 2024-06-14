@@ -13,11 +13,11 @@ permalink: /s/cv
                 <p>of leading design</p>
             </li>
             <li class="career-highlights--stat">
-                <h1>20+ years</h1>
+                <h1>20+ yrs</h1>
                 <p>of user experience design</p>
             </li>
             <li class="career-highlights--stat">
-                <h1>15+ years</h1>
+                <h1>15+ yrs</h1>
                 <p>of front-end web dev</p>
             </li>
         </ul>

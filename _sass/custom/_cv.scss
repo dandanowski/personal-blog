@@ -61,6 +61,10 @@
     padding: 3.2rem;
     background: var(--color-gray-05);
     border-radius: 0.8rem;
+    h1 {
+      font-size: 4rem;
+      line-height: 100%;
+    }
   }
   
   /* ------------------- */
@@ -69,6 +73,8 @@
     padding: 1.6rem 0;
     line-height: 3.2rem;
     border-top: 0.4rem solid var(--color-gray-04);
+    cursor: pointer;
+    transform: all ease-in 1s;
   }
   
   /* line 143, src/sass/main.scss */

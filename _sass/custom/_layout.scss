@@ -18,6 +18,7 @@
   letter-spacing: -4px;
   text-transform: uppercase;
   opacity: 0.4;
+  border: 0;
 
   &,
   &:visited {
@@ -51,6 +52,7 @@
     padding: 4px 8px;
     color: $text-color;
     line-height: $base-line-height;
+    border: 0;
     border-radius: 4px;
 
     // Gaps between nav items, but not on the last one

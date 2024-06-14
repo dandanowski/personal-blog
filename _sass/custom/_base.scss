@@ -105,20 +105,23 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   display: inline-block;
-  padding: 0 2px;
+  padding: 0;
   color: $brand-color;
   font-weight: bold;
   text-decoration: none;
-  border-radius: 4px;
-
+  // border-bottom: 1px dotted black;
+  
   &:visited {
     font-weight: normal;
   }
-
+  
   &:hover {
-    color: lighten($brand-color, 15%);
-    background: darken($brand-color, 50%);
-    // text-decoration: underline;
+    color: lighten($color: $brand-color, $amount: 15%);
+    // color: darken($brand-color, 15%);
+    // background: lighten($brand-color, 50%);
+    // border: 0;
+    // border-radius: 4px 24% 4px 24%;
+    text-decoration: underline;
   }
 
   .social-media-list &:hover {
