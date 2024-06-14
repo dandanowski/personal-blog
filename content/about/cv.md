@@ -49,9 +49,18 @@ permalink: /s/cv
             <div class="job--detail">
                 <section class="responsibilities">
                     <h6>Responsibilities</h6>
+                    <ul>
+                        <li>Design system lead serving as the “translator” between engineering and design.</li>
+                        <li>Maintain and improve the quality of the design system to support over 50 partner and 12 internal brands.</li>
+                        <li>Facilitating consistent design between each of the different product teams to ensure a smooth user experience</li>
+                        <li>Coach/mentor other designers by way of design reviews and helping them communicate their designs to non-designers.</li>
+                    </ul>
                 </section>
                 <section class="skills">
                     <h6>Skills</h6>
+                    <ul>
+                        <li>Structuring, organizing, and automating the process of design token maintenance within our design team using Figma, Tokens Studio (Figma plugin), and Style Dictionary (token transformer).</li>
+                    </ul>
                 </section>
                 <section class="technologies">
                     <h6>Technologies</h6>
