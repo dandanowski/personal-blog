@@ -27,11 +27,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://dan.danow.ski" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DanDanowski
-github_username:  dandanowski
 show_excerpts: true
 
-domain: dandanowski.com
-url: https://dandanowski.com
+domain: dan.danow.ski
+url: https://dan.danow.ski
 baseurl: /
 
 # domain: dandanowski.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
