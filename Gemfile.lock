@@ -29,8 +29,8 @@ GEM
       faraday-net_http (>= 2.0, < 3.2)
     faraday-net_http (3.1.0)
       net-http
-    ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
+    ffi (1.16.3-arm64-darwin)
+    ffi (1.16.3-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (227)
