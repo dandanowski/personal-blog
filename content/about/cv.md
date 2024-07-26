@@ -23,20 +23,32 @@ permalink: /s/cv
         </ul>
     </section>
     <section class="cv--summary">
-        <h2>Summary</h2>
+        <h2>Profile</h2>
         <p>
-            During a long career, I've held titles such as <b>
-            webmaster</b>, <b>web designer/developer</b>, <b>user
-            experience designer/engineer</b>. While the industry 
-            has become more mature and specified, I have always held
-            onto roles that have both visual design and front-end
-            development aspects. My career has evolved this way, as 
-            I have sought challenges to suit my personal fulfilment
-            of working on both creative and more technical tasks, 
-            which can be characterized as first-in-the-door type-roles,
-            or on small teams.
+            With over 20 years of experience in product and digital design in the SaaS industry, I excel in leading teams to deliver exceptional design solutions. I thrive in fast-paced, dynamic environments, ensuring timely and high-quality product delivery. My leadership focuses on team growth, fostering innovation, and driving continuous improvement in design strategies and production processes.
         </p>
-        <p></p>
+        <section class="skills">
+            <h6>Skills</h6>
+            <ul>
+                <li><strong>Leadership</strong>: Strategic planning with product and engineering, Driving product teams to efficient outcomes, Shaping products</li>
+                <li>Team Management: Manage product and DesignOps designers enabling them to grow and excel in their careers, Mentoring less experienced colleagues across design and engineering</li>
+                <li>Product Design: UX/UI design, User research, Product research, Usability testing, Design sprints, Design reviews</li>
+                <li>Project Management: Scaled Agile, Scrum to improve design delivery as well as communication with stakeholders</li>
+            </ul>
+        </section>
+        <section class="technologies">
+            <h6>Tools</h6>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>TAL</li>
+                <li>Adobe Flex</li>
+                <li>Apache</li>
+                <li>Samba</li>
+            </ul>
+        </section>
     </section>
     <section class="cv--timeline">
         <h2>Timeline</h2>
@@ -106,7 +118,6 @@ permalink: /s/cv
                 </section>
             </div>
         </details>
-
         <details class="job job-05">
             <summary class="job--summary">
                 <h3>Nov 2009 &ndash; Jan 2013</h3>
@@ -143,7 +154,6 @@ permalink: /s/cv
                 </section>
             </div>
         </details>
-
         <details class="job job-04">
             <summary class="job--summary">
                 <h3>Jan 2009 &ndash; Nov 2009</h3>
@@ -175,7 +185,6 @@ permalink: /s/cv
                 </section>
             </div>
         </details>
-
         <details class="job job-03">
             <summary class="job--summary">
                 <h3>Oct 2005 &ndash; Jan 2009</h3>
@@ -215,7 +224,6 @@ permalink: /s/cv
                 </section>
             </div>
         </details>
-
         <details class="job job-02">
             <summary class="job--summary">
                 <h3>May 2002 &ndash; Oct 2005</h3>
@@ -256,7 +264,6 @@ permalink: /s/cv
                 </section>
             </div>
         </details>
-
         <details class="job job-01">
             <summary class="job--summary">
                 <h3>May 2000 &ndash; May 2002</h3>
