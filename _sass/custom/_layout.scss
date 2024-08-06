@@ -10,10 +10,10 @@
 
 .site-title {
   position: absolute;
-  top: -25%;
+  top: 10%;
   font-family: $siteTitle-font-family;
   font-weight: $siteTitle-font-weight;
-  @include relative-font-size(8.4);
+  @include relative-font-size(4.8);
   line-height: 1em;
   letter-spacing: -4px;
   text-transform: uppercase;
@@ -276,5 +276,13 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.4);
     }
+  }
+}
+
+
+@media (min-width: 680px) {
+  .site-title {
+    top: -25%;
+    @include relative-font-size(8.4);
   }
 }
