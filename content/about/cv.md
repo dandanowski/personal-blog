@@ -2,301 +2,73 @@
 layout: page
 title: CV
 permalink: /s/cv
+className: cv
 ---
 
-<article class="cv">
-    <section class="cv--highlights">
-        <h2>Highlights</h2>
-        <ul class="career-highlights">
-            <li class="career-highlights--stat">
-                <h1>10+ yrs</h1>
-                <p>of leading design</p>
-            </li>
-            <li class="career-highlights--stat">
-                <h1>20+ yrs</h1>
-                <p>of user experience design</p>
-            </li>
-            <li class="career-highlights--stat">
-                <h1>15+ yrs</h1>
-                <p>of front-end web dev</p>
-            </li>
-        </ul>
-    </section>
-    <section class="cv--summary">
-        <h2>Profile</h2>
-        <p>
-            With over 20 years of experience in product and digital design in the SaaS industry, I excel in leading teams to deliver exceptional design solutions. I thrive in fast-paced, dynamic environments, ensuring timely and high-quality product delivery. My leadership focuses on team growth, fostering innovation, and driving continuous improvement in design strategies and production processes.
-        </p>
-        <section class="skills">
-            <h6>Skills</h6>
-            <ul>
-                <li><strong>Leadership</strong>: Strategic planning with product and engineering, Driving product teams to efficient outcomes, Shaping products</li>
-                <li>Team Management: Manage product and DesignOps designers enabling them to grow and excel in their careers, Mentoring less experienced colleagues across design and engineering</li>
-                <li>Product Design: UX/UI design, User research, Product research, Usability testing, Design sprints, Design reviews</li>
-                <li>Project Management: Scaled Agile, Scrum to improve design delivery as well as communication with stakeholders</li>
-            </ul>
-        </section>
-        <section class="technologies">
-            <h6>Tools</h6>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>TAL</li>
-                <li>Adobe Flex</li>
-                <li>Apache</li>
-                <li>Samba</li>
-            </ul>
-        </section>
-    </section>
-    <section class="cv--timeline">
-        <h2>Timeline</h2>
-        <details open class="job job-07">
-            <summary class="job--summary">
-                <h3>Mar 2022 &ndash; Present</h3>
-                <h4>Design System Lead</h4>
-                <h5>Global Savings Group</h5>
-            </summary>
-            <div class="job--detail">
-                <section class="responsibilities">
-                    <h6>Responsibilities</h6>
-                    <ul>
-                        <li>Design system lead serving as the “translator” between engineering and design.</li>
-                        <li>Maintain and improve the quality of the design system to support over 50 partner and 12 internal brands.</li>
-                        <li>Facilitating consistent design between each of the different product teams to ensure a smooth user experience</li>
-                        <li>Coach/mentor other designers by way of design reviews and helping them communicate their designs to non-designers.</li>
-                    </ul>
-                </section>
-                <section class="skills">
-                    <h6>Skills</h6>
-                    <ul>
-                        <li>Structuring, organizing, and automating the process of design token maintenance within our design team using Figma, Tokens Studio (Figma plugin), and Style Dictionary (token transformer).</li>
-                    </ul>
-                </section>
-                <section class="technologies">
-                    <h6>Technologies</h6>
-                </section>
-            </div>
-        </details>
-        <details class="job job-06">
-            <summary class="job--summary">
-                <h3>Jan 2013 &ndash; Mar 2022</h3>
-                <h4>User Experience Designer/Engineer</h4>
-                <h5>AVEVA (formerly 8over8 Ltd)</h5>
-            </summary>
-            <div class="job--detail">
-                <section class="responsibilities">
-                    <h6>Responsibilities</h6>
-                    <ul>
-                        <li>Lead effort to establish AVEVA Design System for product design across all products</li>
-                        <li>Research, document, and educate on best practice for UX/UI design product development</li>
-                        <li>Consult with product development teams and coach them to deliver better user experience on each project</li>
-                        <li>Help define best practice for rendered front-end development across all web products</li>
-                        <li>Workshop a product delivery team through defining business problems and acceptance criteria to end up with wireframed solutions</li>
-                        <li>Facilitate cross-team meeting to promote knowledge sharing in front-end web development</li>
-                    </ul>
-                </section>
-                <section class="skills">
-                    <h6>Skills</h6>
-                    <ul>
-                        <li>Project management of company-wide design system</li>
-                        <li>Set-up and curate enterprise level front-end component library</li>
-                        <li>Conduct design workshop for non-primary-designers</li>
-                        <li>Improve design communication through hand-coded and design prototypes</li>
-                    </ul>
-                </section>
-                <section class="technologies">
-                    <h6>Technologies</h6>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS/SCSS</li>
-                        <li>JavaScript</li>
-                        <li>AngularJS/Angular</li>
-                        <li>Web Components</li>
-                    </ul>
-                </section>
-            </div>
-        </details>
-        <details class="job job-05">
-            <summary class="job--summary">
-                <h3>Nov 2009 &ndash; Jan 2013</h3>
-                <h4>User Experience Consultant</h4>
-                <h5>Learning Pool Ltd</h5>
-            </summary>
-            <div class="job--detail">
-                <section class="responsibilities">
-                    <h6>Responsibilities</h6>
-                    <ul>
-                        <li>Convert UI design comps into Moodle themes, >200 into total</li>
-                        <li>Custom front-end web development for internal and external web applications</li>
-                        <li>Drive/guide corporate branding and personality in all products</li>
-                    </ul>
-                </section>
-                <section class="skills">
-                    <h6>Skills</h6>
-                    <ul>
-                        <li>Managing and mentoring junior staff</li>
-                        <li>Developed highly efficient design/development cycle for Moodle themes</li>
-                        <li>Led initiative for Development team to use virtualization for improved product development and testing</li>
-                    </ul>
-                </section>
-                <section class="technologies">
-                    <h6>Technologies</h6>
-                    <ul>
-                        <li>PHP</li>
-                        <li>MySQL</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Virutualization</li>
-                    </ul>
-                </section>
-            </div>
-        </details>
-        <details class="job job-04">
-            <summary class="job--summary">
-                <h3>Jan 2009 &ndash; Nov 2009</h3>
-                <h4>Web Designer/Developer</h4>
-                <h5>Sanmita, Inc.</h5>
-            </summary>
-            <div class="job--detail">
-                <section class="responsibilities">
-                    <h6>Responsibilities</h6>
-                    <ul>
-                        <li>Design user interface for new and existing sites</li>
-                        <li>Web site and application backend coding</li>
-                    </ul>
-                </section>
-                <section class="skills">
-                    <h6>Skills</h6>
-                    <ul>
-                        <li>Remote working</li>
-                        <li>Sole designer/developer on projects</li>
-                    </ul>
-                </section>
-                <section class="technologies">
-                    <h6>Technologies</h6>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </section>
-            </div>
-        </details>
-        <details class="job job-03">
-            <summary class="job--summary">
-                <h3>Oct 2005 &ndash; Jan 2009</h3>
-                <h4>Web Designer</h4>
-                <h5>Cornell University / Cornell Lab of Ornithology / Information Science</h5>
-            </summary>
-            <div class="job--detail">
-                <section class="responsibilities">
-                    <h6>Responsibilities</h6>
-                    <ul>
-                        <li>Convert websites from old CMS (FatWire) to new CMS (Plone)</li>
-                        <li>Enhance application used in stand-alone kiosks for bird observations</li>
-                        <li>Create front-end for web applications used to select and download bird observations</li>
-                        <li>Serve as user interface resource for all sites developed by Information Science</li>
-                        <li>Serve as in-house Plone expert for site planning, development and training</li>
-                    </ul>
-                </section>
-                <section class="skills">
-                    <h6>Skills</h6>
-                    <ul>
-                        <li>Developing sites in Plone CMS on top of Zope server</li>
-                        <li>Web server setup, configuration and maintenance in a development setting.</li>
-                    </ul>
-                </section>
-                <section class="technologies">
-                    <h6>Technologies</h6>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>TAL</li>
-                        <li>Adobe Flex</li>
-                        <li>Apache</li>
-                        <li>Samba</li>
-                    </ul>
-                </section>
-            </div>
-        </details>
-        <details class="job job-02">
-            <summary class="job--summary">
-                <h3>May 2002 &ndash; Oct 2005</h3>
-                <h4>Web and Graphic Designer</h4>
-                <h5>Cornell University / Cornell Center for Materials Research</h5>
-            </summary>
-            <div class="job--detail">
-                <section class="responsibilities">
-                    <h6>Responsibilities</h6>
-                    <ul>
-                        <li>CCMR's public and internal websites</li>
-                        <li>Web registrations for Center functions</li>
-                        <li>Web application and selection process for REU and RET</li>
-                        <li>Searchable online 'Ask A Scientist!' database</li>
-                        <li>Visual identity for Center in all printed material</li>
-                    </ul>
-                </section>
-                <section class="skills">
-                    <h6>Skills</h6>
-                    <ul>
-                        <li>Web & print design</li>
-                        <li>Multi-tasking - handling many projects covering different subjects</li>
-                    </ul>
-                </section>
-                <section class="technologies">
-                    <h6>Technologies</h6>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>PHP</li>
-                        <li>MySQL</li>
-                        <li>TAL</li>
-                        <li>Illustrator</li>
-                        <li>Photoshop</li>
-                        <li>Fireworks</li>
-                        <li>Dreamweaver</li>
-                    </ul>
-                </section>
-            </div>
-        </details>
-        <details class="job job-01">
-            <summary class="job--summary">
-                <h3>May 2000 &ndash; May 2002</h3>
-                <h4>Web Designer (Research Aide)</h4>
-                <h5>Cornell University / Institute for the Study of the Continents</h5>
-            </summary>
-            <div class="job--detail">
-                <section class="responsibilities">
-                    <h6>Responsibilities</h6>
-                    <ul>
-                        <li>Create educational website aimed at K-16</li>
-                        <li>Product assessment in live setting with undergraduate Introduction to Geology students</li>
-                        <li>Create interactive learning modules</li>
-                    </ul>
-                </section>
-                <section class="skills">
-                    <h6>Skills</h6>
-                    <ul>
-                        <li>GUI/graphic design</li>
-                        <li>Software assessment in a classroom setting</li>
-                    </ul>
-                </section>
-                <section class="technologies">
-                    <h6>Technologies</h6>
-                    <ul>
-                        <li>Java</li>
-                        <li>HTML</li>
-                        <li>JavaScript</li>
-                        <li>Perl</li>
-                    </ul>
-                </section>
-            </div>
-        </details>
+## Profile
+With over 20 years of experience in product and digital design in the SaaS industry, I excel in leading teams to deliver exceptional design solutions. I thrive in fast-paced, dynamic environments, ensuring timely and high-quality product delivery. My leadership focuses on team growth, fostering innovation, and driving continuous improvement in design strategies and production processes.
 
-    </section>
-</article>
+#### Skills
+* **Leadership:** Strategic planning with product and engineering, Driving product teams to efficient outcomes, Shaping products
+* **Team Management:** Manage product and DesignOps designers enabling them to grow and excel in their careers, Mentoring less experienced colleagues across design and engineering
+* **Product Design:** UX/UI design, User research, Product research, Usability testing, Design sprints, Design reviews
+* **Project Management:** Scaled Agile, Scrum to improve design delivery as well as communication with stakeholders
+
+#### Tools
+* **Design tools:** Figma, Tokens Studio (Figma plugin), Style Dictionary (token transformer), Adobe XD, Illustrator, Photoshop, Fireworks, Dreamweaver and Flex, Whiteboard, pen & paper
+* **Project Management & Development Tools:** Jira, Azure DevOps, Aha, Trello, CommonSpot CMS, Plone CMS, Zope web server, Apache, Samba
+* **Web Development Technologies:** HTML, CSS, JavaScript, NodeJS, Git, SQL, PHP, MySQL, Java, Perl
+
+---
+
+## Professional Experience
+
+### Head of Design
+#### Global Savings Group 
+##### Mar 2022 &mdash; Current
+* **Spearheaded Global Savings Group design system**, bridging engineering and product design. Developed training, documentation, and workflows for seamless adoption and production success.
+* Enhanced design system to support 62 brands across browsers, native apps, and extensions, improving user experience and expanding reach.
+* Streamlined collaboration with product design and engineering leads, removing workflow friction and enabling efficient, high-quality product solutions.
+* Instituted governance framework ensuring consistency in design and user experience, boosting delivery KPIs across product teams.
+* Mentored product designers through reviews, training sessions, and ongoing support, fostering continuous professional development and team growth.
+* Leveraged Figma, Tokens Studio, and Style Dictionary to structure, organize, and automate design token maintenance, enhancing efficiency and consistency within the design team.
+
+### Senior User Experience Engineer
+#### AVEVA 
+##### Feb 2013 &mdash; Feb 2022
+* Design System Lead for 160+ enterprise web products, facilitating input from 15 designers and managing the development of a comprehensive library of web components.
+* Embedded UX Designer within cross-functional product teams to enhance usability and design new customer-driven features. Responsible for prototyping various fidelities for internal and external feedback.
+* Project Management for the UX team during quarterly program increment planning events, adhering to SAFe development practices. Expert in design project tracking within Azure DevOps Boards to improve communication with development teams and stakeholders using SAFe.
+
+### User Experience Consultant
+#### Learning Pool
+##### Nov 2009 &mdash; Jan 2013
+* Led White-Labeling of Learning Pool products from design through implementation. Advocated for virtualisation in product development and testing. Managed and mentored more junior staff.
+* Guided Corporate Branding across all products.
+* Custom Front-End Web Development (HTML/CSS/JS) for internal and external web applications, including hand-coding PHP/MySQL Applications for efficient web solutions.
+* Developed Custom Moodle Themes for optimal performance for supporting the white-labels
+
+### Web Designer/Developer
+#### Sanmita 
+##### Jan 2009 &mdash; Nov 2009
+* Designed and coded user interfaces for new and existing websites and applications. I applied custom designs to CommonSpot CMS.
+* Undertook all coding projects, including hand coding PHP/MySQL applications and using jquery Javascript library for AJAX features
+
+### Web Designer
+#### Cornell Lab of Ornithology 
+##### Oct 2005 &mdash; Jan 2009
+* **Converted websites from old to new CMS** Served as in-house CMS expert for all future site planning, development and training on the new CMS. Responsible for the UI of all sites developed by Information Science.
+* **Created front-end for web applications** used to select and download bird observations. Enhanced application used in stand-alone kiosks for observations using Adobe Flex. I developed sites in Plone using TAL, HTML, Javascript and Python.
+
+### Web and Graphic Designer
+#### Cornell Center for Materials Research
+##### May 2002 &mdash; Oct 2005
+* **Created and maintained all public and internal websites**, including web registrations for the various Center functions, design and development of the searchable online ‘Ask a Scientist!’ database, and web application and selection process for REU and RET.
+* **Acted as brand custodian to manage and enhance the visual identity** of the Center in all printed and digital materials, ensuring consistency across all touchpoints.
+
+### Web Designer, Research Assistant
+#### Discover Our Earth &mdash; Institute for the Study of the Continents &mdash; Cornell University
+##### May 2000 &mdash; May 2002
+* **Created earth science educational website** aimed at school grades K-16
+* **Conducted user testing** in a live setting with undergraduate intro geo students
+* **Created interactive learning modules** using Java and Flash

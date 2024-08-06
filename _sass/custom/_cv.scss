@@ -7,34 +7,29 @@
     --color-gray-06: #EEE;
     --color-gray-07: #FFF;
 }
-
-// article {
-//     margin: 0 auto;
-//     padding: 6.4rem 3.2rem;
-//     text-align: left;
-//   }
-  
-  /* line 100, src/sass/main.scss */
-  .cv > section {
-    margin-bottom: 6.4rem;
-  }
   
   /* line 103, src/sass/main.scss */
-  .cv h2 {
-    margin: 0 0 3.2rem;
-  }
+  .page--cv {
+    h2 {
+      margin: 3.2rem 0;
+    }
   
-  /* line 106, src/sass/main.scss */
-  .cv h4,
-  .cv h5 {
-    margin: 0 0 0 3.2rem;
-  }
-  
-  /* line 110, src/sass/main.scss */
-  .cv h6 {
-    margin: 0;
-    padding: 0.8rem 1.6rem;
-    background: var(--color-gray-07);
+    h3 {
+      margin: 3.2rem 0 0;
+    }
+    h4,
+    h5 {
+      // margin: 0 0 3.2rem;
+    }
+    h6 {
+      margin: 0;
+      padding: 0.8rem 1.6rem;
+      background: var(--color-gray-07);
+    }
+    hr {
+      margin: 3.2rem;
+      border: 1px solid #CCC;
+    }
   }
   
   /* ------------------- */
@@ -98,6 +93,11 @@
     display: inline-block;
     margin: 0 0 0 1.2rem;
   }
+
+  .job--title {
+    font-size: 1.2rem;
+    outline: 1px dashed magenta;
+  }
   
   /* line 157, src/sass/main.scss */
   .job--detail {
@@ -146,11 +146,11 @@
     }
     /* line 194, src/sass/main.scss */
     .job--summary {
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-      gap: 0 1.6rem;
-      padding: 3.2rem 0;
-      list-style: none;
+      // display: grid;
+      // grid-template-columns: 1fr 3fr;
+      // gap: 0 1.6rem;
+      // padding: 3.2rem 0;
+      // list-style: none;
     }
     /* line 201, src/sass/main.scss */
     .job--summary::-webkit-details-marker {
@@ -159,29 +159,29 @@
     }
     /* line 203, src/sass/main.scss */
     .job--summary h3 {
-      grid-row: 1 / 4;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      margin: 0;
-      padding: 1.6rem;
-      font: 1.6rem/2.4rem var(--font-family-head);
-      font-variant-numeric: lining-nums;
-      background: var(--color-gray-05);
-      border: 0.1rem solid var(--color-gray-05);
-      border-radius: .8rem;
+    //   grid-row: 1 / 4;
+    //   display: -webkit-box;
+    //   display: -ms-flexbox;
+    //   display: flex;
+    //   -webkit-box-orient: vertical;
+    //   -webkit-box-direction: normal;
+    //       -ms-flex-direction: column;
+    //           flex-direction: column;
+    //   -webkit-box-pack: center;
+    //       -ms-flex-pack: center;
+    //           justify-content: center;
+    //   margin: 0;
+    //   padding: 1.6rem;
+    //   font: 1.6rem/2.4rem var(--font-family-head);
+    //   font-variant-numeric: lining-nums;
+    //   background: var(--color-gray-05);
+    //   border: 0.1rem solid var(--color-gray-05);
+    //   border-radius: .8rem;
     }
     /* line 216, src/sass/main.scss */
-    .job--summary:hover > h3 {
-      border-color: var(--color-gray-03);
-    }
+    // .job--summary:hover > h3 {
+    //   border-color: var(--color-gray-03);
+    // }
     /* line 219, src/sass/main.scss */
     .job--summary h4 {
       grid-column: 2 / 3;
@@ -196,14 +196,14 @@
     }
     /* line 229, src/sass/main.scss */
     .job--detail {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 1.6rem;
-      padding: 0 0 3.2rem;
+      // display: grid;
+      // grid-template-columns: 1fr 1fr;
+      // grid-gap: 1.6rem;
+      // padding: 0 0 3.2rem;
     }
     /* line 235, src/sass/main.scss */
     .job--detail .responsibilities {
-      grid-column: 1 / 3;
+      // grid-column: 1 / 3;
     }
   }
   
@@ -214,15 +214,15 @@
       // width: 140rem;
     }
     /* line 246, src/sass/main.scss */
-    .cv {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 0 3.2rem;
+    .page--cv {
+      // display: grid;
+      // grid-template-columns: 1fr 2fr;
+      // gap: 0 3.2rem;
     }
     /* line 252, src/sass/main.scss */
-    .cv--timeline {
-      grid-column: 2 / 2;
-      grid-row: 1 / 4;
+    .page--cv--timeline {
+      // grid-column: 2 / 2;
+      // grid-row: 1 / 4;
     }
     /* line 257, src/sass/main.scss */
     .career-highlights {
