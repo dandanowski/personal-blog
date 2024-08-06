@@ -19,8 +19,6 @@ With over 20 years of experience in product and digital design in the SaaS indus
 * **Project Management & Development Tools:** Jira, Azure DevOps, Aha, Trello, CommonSpot CMS, Plone CMS, Zope web server, Apache, Samba
 * **Web Development Technologies:** HTML, CSS, JavaScript, NodeJS, Git, SQL, PHP, MySQL, Java, Perl
 
----
-
 ## Professional Experience
 
 ### Head of Design

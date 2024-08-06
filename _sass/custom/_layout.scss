@@ -11,7 +11,7 @@
 .site-title {
   position: absolute;
   top: -25%;
-  font-family: $heading-font-family;
+  font-family: $siteTitle-font-family;
   font-weight: $siteTitle-font-weight;
   @include relative-font-size(8.4);
   line-height: 1em;
