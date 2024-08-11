@@ -24,6 +24,7 @@ With over 20 years of experience in product and digital design in the SaaS indus
 ### Head of Design
 #### Global Savings Group 
 ##### Mar 2022 &mdash; Current
+###### CASE STUDIES &mdash; [Scaling a rigid design system](/s/case-study/gsg-design-system-v2)
 * **Spearheaded Global Savings Group design system**, bridging engineering and product design. Developed training, documentation, and workflows for seamless adoption and production success.
 * Enhanced design system to support 62 brands across browsers, native apps, and extensions, improving user experience and expanding reach.
 * Streamlined collaboration with product design and engineering leads, removing workflow friction and enabling efficient, high-quality product solutions.
@@ -34,6 +35,7 @@ With over 20 years of experience in product and digital design in the SaaS indus
 ### Senior User Experience Engineer
 #### AVEVA 
 ##### Feb 2013 &mdash; Feb 2022
+###### CASE STUDIES &mdash; [Unifying 150+ product experiences](/s/case-study/aveva-design-system) &bull; [Leading design for better product outcomes](/s/case-study/design-sprinting-with-procon)
 * Design System Lead for 160+ enterprise web products, facilitating input from 15 designers and managing the development of a comprehensive library of web components.
 * Embedded UX Designer within cross-functional product teams to enhance usability and design new customer-driven features. Responsible for prototyping various fidelities for internal and external feedback.
 * Project Management for the UX team during quarterly program increment planning events, adhering to SAFe development practices. Expert in design project tracking within Azure DevOps Boards to improve communication with development teams and stakeholders using SAFe.
@@ -41,6 +43,7 @@ With over 20 years of experience in product and digital design in the SaaS indus
 ### User Experience Consultant
 #### Learning Pool
 ##### Nov 2009 &mdash; Jan 2013
+###### CASE STUDIES &mdash; [Wrangling 300+ themes for LMS](/s/case-study/design-system-at-learning-pool)
 * Led White-Labeling of Learning Pool products from design through implementation. Advocated for virtualisation in product development and testing. Managed and mentored more junior staff.
 * Guided Corporate Branding across all products.
 * Custom Front-End Web Development (HTML/CSS/JS) for internal and external web applications, including hand-coding PHP/MySQL Applications for efficient web solutions.
