@@ -13,4 +13,4 @@ The product I spent most of my time on was ProCon, the sole product of 8over8. I
  
 Over my time working on ProCon, I had brought it from database-on-a-screen interface design to something that had a more considered approach to usability. I had worked with each product owner to visualize features and get approval of product and development before any programming work began. I even introduced a design sprint ceremony into the agile discovery process. Inspired from the Google Design Sprint documentation, I applied different tasks depending on the problems to be solved.
 
-![ProCon screenshot cluster](/assets/procon-screenshot-cluster.png)
+![ProCon screenshot cluster](/assets/case-study/procon-screenshot-cluster.png)
