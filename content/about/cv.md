@@ -1,11 +1,11 @@
 ---
 layout: page
 title: CV
+subtitle: Curriculum vitae
 permalink: /s/cv
 className: cv
 ---
 
-## Profile
 With over 20 years of experience in product and digital design in the SaaS industry, I excel in leading teams to deliver exceptional design solutions. I thrive in fast-paced, dynamic environments, ensuring timely and high-quality product delivery. My leadership focuses on team growth, fostering innovation, and driving continuous improvement in design strategies and production processes.
 
 #### Skills
@@ -26,34 +26,34 @@ With over 20 years of experience in product and digital design in the SaaS indus
 ##### Mar 2022 &mdash; Current
 ###### CASE STUDIES &mdash; [Scaling a rigid design system](/s/case-study/gsg-design-system-v2)
 * **Spearheaded Global Savings Group design system**, bridging engineering and product design. Developed training, documentation, and workflows for seamless adoption and production success.
-* Enhanced design system to support 62 brands across browsers, native apps, and extensions, improving user experience and expanding reach.
-* Streamlined collaboration with product design and engineering leads, removing workflow friction and enabling efficient, high-quality product solutions.
-* Instituted governance framework ensuring consistency in design and user experience, boosting delivery KPIs across product teams.
-* Mentored product designers through reviews, training sessions, and ongoing support, fostering continuous professional development and team growth.
-* Leveraged Figma, Tokens Studio, and Style Dictionary to structure, organize, and automate design token maintenance, enhancing efficiency and consistency within the design team.
+* **Enhanced design system** to support 62 brands across browsers, native apps, and extensions, improving user experience and expanding reach.
+* **Streamlined collaboration** with product design and engineering leads, removing workflow friction and enabling efficient, high-quality product solutions.
+* **Instituted governance framework** ensuring consistency in design and user experience, boosting delivery KPIs across product teams.
+* **Mentored product designers** through reviews, training sessions, and ongoing support, fostering continuous professional development and team growth.
+* **Leveraged Figma, Tokens Studio, and Style Dictionary** to structure, organize, and automate design token maintenance, enhancing efficiency and consistency within the design team.
 
 ### Senior User Experience Engineer
 #### AVEVA 
 ##### Feb 2013 &mdash; Feb 2022
 ###### CASE STUDIES &mdash; [Unifying 150+ product experiences](/s/case-study/aveva-design-system) &bull; [Leading design for better product outcomes](/s/case-study/design-sprinting-with-procon)
-* Design System Lead for 160+ enterprise web products, facilitating input from 15 designers and managing the development of a comprehensive library of web components.
-* Embedded UX Designer within cross-functional product teams to enhance usability and design new customer-driven features. Responsible for prototyping various fidelities for internal and external feedback.
-* Project Management for the UX team during quarterly program increment planning events, adhering to SAFe development practices. Expert in design project tracking within Azure DevOps Boards to improve communication with development teams and stakeholders using SAFe.
+* **Design System Lead** for 160+ enterprise web products, facilitating input from 15 designers and managing the development of a comprehensive library of web components.
+* **Embedded UX Designer** within cross-functional product teams to enhance usability and design new customer-driven features. Responsible for prototyping various fidelities for internal and external feedback.
+* **Project Management** for the UX team during quarterly program increment planning events, adhering to SAFe development practices. Expert in design project tracking within Azure DevOps Boards to improve communication with development teams and stakeholders using SAFe.
 
 ### User Experience Consultant
 #### Learning Pool
 ##### Nov 2009 &mdash; Jan 2013
 ###### CASE STUDIES &mdash; [Wrangling 300+ themes for LMS](/s/case-study/design-system-at-learning-pool)
-* Led White-Labeling of Learning Pool products from design through implementation. Advocated for virtualisation in product development and testing. Managed and mentored more junior staff.
-* Guided Corporate Branding across all products.
-* Custom Front-End Web Development (HTML/CSS/JS) for internal and external web applications, including hand-coding PHP/MySQL Applications for efficient web solutions.
-* Developed Custom Moodle Themes for optimal performance for supporting the white-labels
+* **Led White-Labeling** of Learning Pool products from design through implementation. Advocated for virtualisation in product development and testing. Managed and mentored more junior staff.
+* **Guided Corporate Branding** across all products.
+* **Custom Front-End Web Development** (HTML/CSS/JS) for internal and external web applications, including hand-coding PHP/MySQL Applications for efficient web solutions.
+* **Developed Custom Moodle Themes** for optimal performance for supporting the white-labels
 
 ### Web Designer/Developer
 #### Sanmita 
 ##### Jan 2009 &mdash; Nov 2009
-* Designed and coded user interfaces for new and existing websites and applications. I applied custom designs to CommonSpot CMS.
-* Undertook all coding projects, including hand coding PHP/MySQL applications and using jquery Javascript library for AJAX features
+* **Designed and coded** user interfaces for new and existing websites and applications. I applied custom designs to CommonSpot CMS.
+* **Undertook all coding projects**, including hand coding PHP/MySQL applications and using jquery Javascript library for AJAX features
 
 ### Web Designer
 #### Cornell Lab of Ornithology 

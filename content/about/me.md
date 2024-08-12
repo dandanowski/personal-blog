@@ -11,4 +11,4 @@ I am a husband, father of three kids, two cats, and a dog. I am a regular at the
 
 That's about as exciting as it gets personally.
 
-Professionally, I've tried to keep my [CV](/s/cv) up to date and there is even a [portfolio](/s/portfolio).
+Professionally, I've tried to keep my [CV](/s/cv) up to date.

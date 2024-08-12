@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Leading design for better product outcomes
+subtitle: Design sprinting with ProCon
 permalink: /s/case-study/design-sprinting-with-procon
 className: case-study
 tags: case-study product-design

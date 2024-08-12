@@ -6,7 +6,7 @@ className: case-study
 tags: case-study design-system
 ---
 
-Some pithy openning paragraph.
+Some pithy opening paragraph.
 
 ### AVEVA Design System
 
