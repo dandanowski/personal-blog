@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: post
 title: Leading design for better product outcomes
 subtitle: Design sprinting with ProCon
 permalink: /s/case-study/design-sprinting-with-procon
 className: case-study
-tags: case-study product-design
+tags: [Case study, Product design]
 ---
 
 During my time at AVEVA, I focused mainly on enterprise web applications. When describing it this way, I have two main points in mind, oftentimes the focus is on whoever is buying and not using and the bar for good usable design is quite low. The reality was it was a development lead setup. We churned out features and rarely did we circle back for a second version.

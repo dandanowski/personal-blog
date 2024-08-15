@@ -4,9 +4,15 @@
 - name: Notebook
   link: /s/notebook
 
-- name: Lab
-  link: /s/lab
+# - name: Lab
+#   link: /s/lab
 
-- name: About
-  link: /s/backstory
+# - name: About
+#   link: /s/backstory
+
+- name: CV
+  link: /s/cv
+
+- name: Case Studies
+  link: /s/case-studies
   

@@ -50,6 +50,10 @@ plugins:
   - jekyll-seo-tag
 permalink: pretty
 
+categories:
+  - one
+  - two
+
 collections_dir: content
 collections:
   labs:
