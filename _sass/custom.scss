@@ -28,7 +28,7 @@ $background-color: #eee !default;
 $surface-color:    #fff !default;
 $brand-color:      green !default;
 
-$grey-color:       #00000033 !default;
+$grey-color:       #CCC !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
@@ -62,6 +62,7 @@ $on-desktop:       1200px !default;
 @import
   "custom/base",
   "custom/layout",
+  "custom/footer",
   "custom/special-bits",
   "custom/cv",
   "custom/syntax-highlighting"
