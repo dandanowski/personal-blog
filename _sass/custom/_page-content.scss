@@ -1,0 +1,42 @@
+/**
+ * Page content
+ */
+ .page-content {
+    @include relative-font-size(1.8);
+    padding: $spacing-unit*2 0;
+    flex: 1;
+    h1,h2,h3,h4 {
+      font-family: $heading-font-family;
+    }
+  }
+  
+  .page-heading {
+    @include relative-font-size(4.2);
+  }
+  
+  .post-list-heading {
+    @include relative-font-size(2.8);
+  }
+  
+  .post-list {
+    margin-left: 0;
+    list-style: none;
+  
+    > li {
+      margin-bottom: $spacing-unit * 2;
+      font-size: $small-font-size;
+      a {
+      }
+    }
+  }
+  
+  .post-meta {
+    font-size: $small-font-size;
+    color: $text-color;
+    text-transform: uppercase;
+  }
+  
+  .post-link {
+    display: block;
+    @include relative-font-size(2.4);
+  }

@@ -61,8 +61,10 @@ $on-desktop:       1200px !default;
 // Import partials.
 @import
   "custom/base",
-  "custom/layout",
-  "custom/footer",
+  "custom/site-header",
+  "custom/site-footer",
+  "custom/page-content",
+  "custom/posts",
   "custom/special-bits",
   "custom/cv",
   "custom/syntax-highlighting"
