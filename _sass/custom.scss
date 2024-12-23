@@ -28,7 +28,7 @@ $background-color: #eee !default;
 $surface-color:    #fff !default;
 $brand-color:      green !default;
 
-$grey-color:       #CCC !default;
+$grey-color:       #666 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
@@ -56,6 +56,16 @@ $on-desktop:       1200px !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+:root {
+  --color-gray-01: #333;
+  --color-gray-02: #555;
+  --color-gray-03: #999;
+  --color-gray-04: #CCC;
+  --color-gray-05: #DDD;
+  --color-gray-06: #EEE;
+  --color-gray-07: #FFF;
 }
 
 // Import partials.
