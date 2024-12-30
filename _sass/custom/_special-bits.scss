@@ -4,7 +4,7 @@ $postit-shadow: 4px 4px 4px rgba(0,0,0, 0.48);
 $postit-shadow-raised: 4px 4px 8px rgba(0,0,0,0.24);
 
 
-.home {
+.home-content {
     margin-block-start: -48px;
     header {
         display: flex;
@@ -37,7 +37,7 @@ $postit-shadow-raised: 4px 4px 8px rgba(0,0,0,0.24);
     }
     .post-list {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
         gap: 40px;
         margin-block-end: 40px;
         li {
@@ -65,7 +65,17 @@ $postit-shadow-raised: 4px 4px 8px rgba(0,0,0,0.24);
             }
         }
     }
-    @media screen and (max-width: 680px) {
+    @include media-query($on-desktop){
+        .post-list {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @include media-query($on-laptop){
+        .post-list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @include media-query($on-palm) {
         header {
             display: block;
             .intro {

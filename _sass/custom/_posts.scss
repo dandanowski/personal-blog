@@ -2,7 +2,7 @@
  * Posts
  */
 .post-header {
-  margin-bottom: calc(#{$spacing-unit} * 2);
+  // margin-bottom: calc(#{$spacing-unit} * 2);
 
   .post-title {
     // margin: 0;
@@ -49,13 +49,5 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.4);
     }
-  }
-}
-
-
-@media (min-width: 680px) {
-  .site-title {
-    top: -25%;
-    @include relative-font-size(8.4);
   }
 }

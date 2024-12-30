@@ -1,42 +1,108 @@
 /**
  * Page content
  */
- .page-content {
+.page-content {
     @include relative-font-size(1.8);
     padding: $spacing-unit*2 0;
     flex: 1;
-    h1,h2,h3,h4 {
-      font-family: $heading-font-family;
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: $heading-font-family;
     }
-  }
-  
-  .page-heading {
+}
+
+.page-heading {
     @include relative-font-size(4.2);
-  }
-  
-  .post-list-heading {
+}
+
+.post-list-heading {
     @include relative-font-size(2.8);
-  }
-  
-  .post-list {
+}
+
+.post-list {
     margin-left: 0;
     list-style: none;
-  
-    > li {
-      margin-bottom: $spacing-unit * 2;
-      font-size: $small-font-size;
-      a {
-      }
+
+    >li {
+        margin-bottom: $spacing-unit * 2;
+        font-size: $small-font-size;
+
+        a {}
     }
-  }
-  
-  .post-meta {
+}
+
+.post-meta {
     font-size: $small-font-size;
     color: $text-color;
     text-transform: uppercase;
-  }
-  
-  .post-link {
+}
+
+.post-link {
     display: block;
     @include relative-font-size(2.4);
-  }
+}
+
+.related-posts {
+    ul {
+        margin: 0 0 $spacing-unit;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        padding-bottom: $spacing-unit / 3;
+    }
+    a {
+        font-weight: normal;
+    }
+}
+
+
+/**
+ * Column layout
+ */
+
+ .post .page-content {
+
+    .wrapper {
+        display: grid;
+        column-gap: $spacing-unit * 2;
+        grid-template:
+            'primary content content content content secondary';
+    }
+
+    article {
+        grid-area: content;
+    }
+
+    .primary {
+        grid-area: primary;
+    }
+
+    .secondary {
+        grid-area: secondary;
+        align-self: stretch;
+        @include relative-font-size(1.4);
+    }
+
+    @include media-query($on-desktop) {
+        .wrapper {
+            gap: $spacing-unit;
+            grid-template:
+                'primary content content '
+                'secondary content content ';
+            grid-template-rows: [row1-start] auto [row1-end row2-start] 1fr [row2-end];
+        }
+    }
+
+    @include media-query($on-laptop) {
+        .wrapper {
+            grid-template:
+                'primary'
+                'content'
+                'secondary';
+        }
+    }
+ }

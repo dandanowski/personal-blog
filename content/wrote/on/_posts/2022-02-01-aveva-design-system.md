@@ -4,6 +4,7 @@ title: Unifying 150+ product experiences
 subtitle: AVEVA Design System
 permalink: /s/case-study/aveva-design-system
 className: case-study
+showPrimary: false
 tags: [Case study, Design system]
 ---
 
