@@ -29,8 +29,6 @@
     >li {
         margin-bottom: $spacing-unit * 2;
         font-size: $small-font-size;
-
-        a {}
     }
 }
 
@@ -51,11 +49,17 @@
         padding: 0;
         list-style: none;
     }
+
     li {
-        padding-bottom: $spacing-unit / 3;
+        padding: $spacing-unit 0;
+        border-bottom: 1px solid var(--color-gray-04);
+        &:last-child {
+            border: 0;
+        }
     }
-    a {
-        font-weight: normal;
+    
+    p {
+        margin: 0;
     }
 }
 
@@ -64,20 +68,18 @@
  * Column layout
  */
 
- .post .page-content {
+article.post {
+    display: grid;
+    column-gap: $spacing-unit * 2;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+        'primary content secondary';
 
-    .wrapper {
-        display: grid;
-        column-gap: $spacing-unit * 2;
-        grid-template:
-            'primary content content content content secondary';
-    }
-
-    article {
+    .post-content {
         grid-area: content;
     }
 
-    .primary {
+    .post-header {
         grid-area: primary;
     }
 
@@ -86,23 +88,24 @@
         align-self: stretch;
         @include relative-font-size(1.4);
     }
+}
 
-    @include media-query($on-desktop) {
-        .wrapper {
-            gap: $spacing-unit;
-            grid-template:
-                'primary content content '
-                'secondary content content ';
-            grid-template-rows: [row1-start] auto [row1-end row2-start] 1fr [row2-end];
-        }
+@include media-query($on-desktop) {
+    article.post {
+        gap: $spacing-unit;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas:
+            'primary content '
+            'secondary content ';
+        grid-template-rows: [row1-start] auto [row1-end row2-start] 1fr [row2-end];
     }
+}
 
-    @include media-query($on-laptop) {
-        .wrapper {
-            grid-template:
-                'primary'
-                'content'
-                'secondary';
-        }
+@include media-query($on-laptop) {
+    article.post {
+        grid-template:
+            'primary'
+            'content'
+            'secondary';
     }
- }
+}

@@ -12,7 +12,8 @@
         {% for post in related_posts %}
             {% if post.id != page.id %}
             <li>
-                <a href="{{ post.url }}">{{post.title}}</a>
+                <h4><a href="{{ post.url }}">{{post.title}}</a></h4>
+                {{post.excerpt}}
             </li>
             {% endif %}
         {% endfor %}
