@@ -44,6 +44,10 @@
 }
 
 .related-posts {
+    h2 {
+        margin: 0;
+    }
+    
     ul {
         margin: 0 0 $spacing-unit;
         padding: 0;
@@ -65,12 +69,13 @@
 
 
 /**
- * Column layout
+ * Post Column layout
  */
 
 article.post {
     display: grid;
     column-gap: $spacing-unit * 2;
+    row-gap: $spacing-unit;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas:
         'primary content secondary';
@@ -92,7 +97,7 @@ article.post {
 
 @include media-query($on-desktop) {
     article.post {
-        gap: $spacing-unit;
+        column-gap: $spacing-unit * 2;
         grid-template-columns: 1fr 2fr;
         grid-template-areas:
             'primary content '
@@ -108,4 +113,17 @@ article.post {
             'content'
             'secondary';
     }
+}
+
+
+/**
+ * CV Column layout
+ */
+
+article.cv {
+    display: grid;
+    column-gap: $spacing-unit * 2;
+    grid-template-areas:
+        'profile experience'
+        'skills experience';
 }
