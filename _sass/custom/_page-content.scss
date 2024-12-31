@@ -47,7 +47,7 @@
     h2 {
         margin: 0;
     }
-    
+
     ul {
         margin: 0 0 $spacing-unit;
         padding: 0;
@@ -77,6 +77,7 @@ article.post {
     column-gap: $spacing-unit * 2;
     row-gap: $spacing-unit;
     grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: [row1-start] auto [row1-end row2-start] 1fr [row2-end];
     grid-template-areas:
         'primary content secondary';
 
@@ -102,7 +103,6 @@ article.post {
         grid-template-areas:
             'primary content '
             'secondary content ';
-        grid-template-rows: [row1-start] auto [row1-end row2-start] 1fr [row2-end];
     }
 }
 
@@ -123,7 +123,42 @@ article.post {
 article.cv {
     display: grid;
     column-gap: $spacing-unit * 2;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 
+        [row1-start] auto 
+        [row1-end row2-start] auto 
+        [row2-end row3-start] auto
+        [row3-end row4-start] 1fr;
     grid-template-areas:
+        'header experience'
         'profile experience'
-        'skills experience';
+        'skills experience'
+        'tools experience';
+    
+    .cv--header { grid-area: header; }
+    .cv--profile { grid-area: profile; }
+    .cv--skills { grid-area: skills; }
+    .cv--tools { grid-area: tools; }
+
+    .cv--header,
+    .cv--profile,
+    .cv--skills,
+    .cv--tools {
+        padding-bottom: $spacing-unit;
+    }
+
+    .cv--experience {
+        grid-area: experience;
+    }
+}
+
+@include media-query($on-laptop) {
+    article.cv {
+        grid-template:
+            'header'
+            'profile'
+            'skills'
+            'tools'
+            'experience';
+    }
 }
