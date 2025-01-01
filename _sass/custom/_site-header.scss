@@ -5,7 +5,7 @@
     position: relative;
     padding: 24px 0;
     background: $grey-color-light;
-    overflow-x: hidden;
+    // overflow: hidden;
 }
 
 
@@ -24,6 +24,7 @@
     text-transform: uppercase;
     opacity: 0.4;
     border: 0;
+    overflow: hidden;
 
     &,
     &:visited {
