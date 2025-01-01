@@ -102,18 +102,18 @@
             height: 100%;
             width: 100%;
 
-            >svg {
+            > svg {
                 margin: auto;
                 fill: $grey-color-dark;
             }
         }
 
-        input~.trigger {
+        input ~ .trigger {
             clear: both;
             display: none;
         }
 
-        input:checked~.trigger {
+        input:checked ~ .trigger {
             display: block;
             padding-bottom: 4px;
         }
@@ -126,8 +126,6 @@
             &:not(:last-child) {
                 margin-right: 0;
             }
-
-            // margin-left: 24px;
         }
     }
 }
@@ -142,7 +140,7 @@
     .site-title {
         top: 20%;
         // position: relative;
-        @include relative-font-size(4.2);
+        @include relative-font-size(3.8);
         // font-weight: bold;
     }
 }
