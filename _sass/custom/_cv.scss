@@ -1,114 +1,156 @@
-/* line 103, src/sass/main.scss */
-.page--cv {
-  .post-subtitle {
-    margin: 0;
-    padding: 0;
-    border: 0;
+/**
+ * CV Column layout
+ */
+
+ article.cv {
+  display: grid;
+  column-gap: $spacing-unit * 2;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 
+      [row1-start] auto 
+      [row1-end row2-start] auto 
+      [row2-end row3-start] 1fr 
+      [row3-end row4-start];
+  grid-template-areas:
+      'header experience skills'
+      'profile experience skills'
+      'profile experience tools';
+  
+  .cv--header { grid-area: header; }
+  .cv--profile { grid-area: profile; }
+  .cv--skills { grid-area: skills; }
+  .cv--tools { grid-area: tools; }
+
+  .cv--header,
+  .cv--profile,
+  .cv--skills,
+  .cv--tools {
+      padding-bottom: $spacing-unit;
   }
 
-  h2 {
-    margin: 4.8rem 0 1.6rem;
-    // padding: 0.8rem 0;
-    // @include relative-font-size(2);
-    // font-weight: 400;
-    // text-transform: uppercase;
-    // border-top: 1px solid var(--color-gray-04);
+  .cv--skills,
+  .cv--tools {
+    ul {
+      list-style: none;
+      margin: 0;
+    }
+    li {
+      padding: $spacing-unit/2 0;
+    }
   }
 
-  h3 {
-    margin: 3.2rem 0 0;
+  .cv--experience {
+      grid-area: experience;
   }
+}
 
-  h4,
-  h5 {
-    // margin: 0 0 3.2rem;
+@include media-query($on-desktop) {
+  article.cv {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 
+        [row1-start] auto 
+        [row1-end row2-start] auto 
+        [row2-end row3-start] auto
+        [row3-end row4-start] 1fr;
+    grid-template-areas:
+        'header experience'
+        'profile experience'
+        'skills experience'
+        'tools experience';
   }
+}
 
-  h6 {}
-
-  hr {
-    margin: 3.2rem;
-    border: 1px solid #CCC;
+@include media-query($on-laptop) {
+  article.cv {
+    grid-template-columns: 1fr;
+      grid-template-areas:
+          'header'
+          'profile'
+          'skills'
+          'tools'
+          'experience';
   }
 }
 
 /* ------------------- */
-/* line 118, src/sass/main.scss */
-.career-highlights {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/* line 123, src/sass/main.scss */
-.career-highlights h1 {
-  margin: 0 0 1.6rem;
-}
-
-/* line 126, src/sass/main.scss */
-.career-highlights p {
-  margin: 0;
-}
-
-/* line 129, src/sass/main.scss */
-.career-highlights--stat {
-  margin: 1.6rem 0;
-  padding: 3.2rem;
-  background: var(--color-gray-05);
-  border-radius: 0.8rem;
-
-  h1 {
-    font-size: 4rem;
-    line-height: 100%;
-  }
-}
-
-/* ------------------- */
-/* line 138, src/sass/main.scss */
 .job--summary {
-  padding: 1.6rem 0;
-  line-height: 3.2rem;
-  border-top: 0.4rem solid var(--color-gray-04);
-  cursor: pointer;
+  padding: 0;
+  // line-height: 3.2rem;
+  border-top: 4px solid var(--color-gray-04);
   transform: all ease-in 1s;
-}
 
-/* line 143, src/sass/main.scss */
-.job:first-of-type .job--summary {
-  padding-top: 0;
-  border: none;
-}
+  &:first-of-type {
+    padding-top: $spacing-unit;
+    border: none;
+  }
 
-/* line 147, src/sass/main.scss */
-.job--summary:focus {
-  outline: none;
-}
+  &:focus {
+    outline: none;
+  }
 
-/* line 150, src/sass/main.scss */
-.job--summary::marker {
-  color: var(--color-gray-02);
-}
-
-/* line 153, src/sass/main.scss */
-.job--summary h3 {
-  display: inline-block;
-  margin: 0 0 0 1.2rem;
+  &[open] > .job--title::after {
+    content: '-';
+    grid-area: marker;
+    color: var(--color-gray-03);
+  }
 }
 
 .job--title {
-  font-size: 1.2rem;
-  outline: 1px dashed magenta;
+  // font-size: 1.2rem;
+  // outline: 1px dashed magenta;
+  display: grid;
+  justify-content: stretch;
+  grid-template-columns: 5fr 2fr auto;
+  grid-template-areas:
+    "role role marker"
+    "company company duration";
+  padding: $spacing-unit 0;
+  cursor: pointer;
+
+  &::after {
+    content: '+';
+    grid-area: marker;
+    padding: 0 $spacing-unit/3;
+    @include relative-font-size(2.4);
+    font-weight: bold;
+    text-align: right;
+    color: var(--color-gray-03);
+  }
+
+  h3 { 
+    grid-area: role;
+    margin: 0;
+  }
+
+  h4 { 
+    grid-area: company; 
+    margin: 0;
+    font-weight: normal;
+  }
+
+  h5 { 
+    grid-area: duration; 
+    margin: 0;
+    font-weight: normal;
+  }
+
+  &:hover h3 {
+    color: $brand-color;
+  }
 }
 
-/* line 157, src/sass/main.scss */
-.job--detail {
-  padding: 0 1.6rem 3.2rem;
-}
+.job--details {
+  padding: $spacing-unit 0 $spacing-unit * 3;
+  border-top: 1px solid var(--color-gray-04);
 
-/* line 160, src/sass/main.scss */
-.job--detail ul {
-  margin: 1.6rem 0;
-  padding: 0 0 0 3.2rem;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li:not(:last-child) {
+    padding: 0 0 $spacing-unit/2;
+  }
 }
 
 /* ------------------- */
@@ -195,16 +237,16 @@
   // }
   /* line 219, src/sass/main.scss */
   .job--summary h4 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 1;
-    margin: 0;
+    // grid-column: 2 / 3;
+    // grid-row: 1 / 1;
+    // margin: 0;
   }
 
   /* line 224, src/sass/main.scss */
   .job--summary h5 {
-    grid-column: 2 / 3;
-    grid-row: 2 / 2;
-    margin: 0;
+    // grid-column: 2 / 3;
+    // grid-row: 2 / 2;
+    // margin: 0;
   }
 
   /* line 229, src/sass/main.scss */

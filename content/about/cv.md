@@ -30,13 +30,13 @@ className: cv
 
 <section class="cv--experience">
     <h2>Experience</h2>
-    <section class="cv--stop">
-        <header>
+    <details class="job--summary" open>
+        <summary class="job--title">
             <h3>Head of Design Acqusition & Activation</h3>
             <h4>Atolls</h4>
             <h5>March 2022 &mdash; Current</h5>
-        </header>
-        <div class="cv--stop-content">
+        </summary>
+        <div class="job--details">
             <ul>
                 <li><strong>Spearheaded Atolls design system</strong>, bridging engineering and product design. Developed training, documentation, and workflows for seamless adoption and production success.</li>
                 <li><strong>Enhanced design system</strong> to support 62 brands across browsers, native apps, and extensions, improving user experience and expanding reach.</li>
@@ -46,28 +46,28 @@ className: cv
                 <li><strong>Leveraged Figma, Tokens Studio, and Style Dictionary</strong> to structure, organize, and automate design token maintenance, enhancing efficiency and consistency within the design team.</li>
             </ul>
         </div>
-    </section>
-    <section class="cv--stop">
-        <header>
+    </details>
+    <details class="job--summary">
+        <summary class="job--title">
             <h3>Senior User Experience Engineer</h3>
             <h4>AVEVA</h4>
             <h5>Feb 2013 &mdash; Feb 2022</h5>
-        </header>
-        <div class="cv--stop-content">
+        </summary>
+        <div class="job--details">
             <ul>
                 <li><strong>Design System Lead</strong> for 160+ enterprise web products, facilitating input from 15 designers and managing the development of a comprehensive library of web components.</li>
                 <li><strong>Embedded UX Designer</strong> within cross-functional product teams to enhance usability and design new customer-driven features. Responsible for prototyping various fidelities for internal and external feedback.</li>
                 <li><strong>Project Management</strong> for the UX team during quarterly program increment planning events, adhering to SAFe development practices. Expert in design project tracking within Azure DevOps Boards to improve communication with development teams and stakeholders using SAFe.</li>
             </ul>
         </div>
-    </section>
-    <section class="cv--stop">
-        <header>
+    </details>
+    <details class="job--summary">
+        <summary class="job--title">
             <h3>User Experience Consultant</h3>
             <h4>Learning Pool</h4>
             <h5>Nov 2009 &mdash; Jan 2013</h5>
-        </header>
-        <div class="cv--stop-content">
+        </summary>
+        <div class="job--details">
             <ul>
                 <li><strong>Led White-Labeling</strong> of Learning Pool products from design through implementation. Advocated for virtualisation in product development and testing. Managed and mentored more junior staff.</li>
                 <li><strong>Guided Corporate Branding</strong> across all products.</li>
@@ -75,58 +75,58 @@ className: cv
                 <li><strong>Developed Custom Moodle Themes</strong> for optimal performance for supporting the white-labels</li>
             </ul>
         </div>
-    </section>
-    <section class="cv--stop">
-        <header>
+    </details>
+    <details class="job--summary">
+        <summary class="job--title">
             <h3>Web Designer/Developer</h3>
             <h4>Sanmita</h4>
             <h5>Jan 2009 &mdash; Nov 2009</h5>
-        </header>
-        <div class="cv--stop-content">
+        </summary>
+        <div class="job--details">
             <ul>
                 <li><strong>Designed and coded</strong> user interfaces for new and existing websites and applications. I applied custom designs to CommonSpot CMS.</li>
                 <li><strong>Undertook all coding projects</strong>, including hand coding PHP/MySQL applications and using jquery Javascript library for AJAX features</li>
             </ul>
         </div>
-    </section>
-    <section class="cv--stop">
-        <header>
+    </details>
+    <details class="job--summary">
+        <summary class="job--title">
             <h3>Web Designer</h3>
             <h4>Cornell Lab of Ornithology</h4>
             <h5>Oct 2005 &mdash; Jan 2009</h5>
-        </header>
-        <div class="cv--stop-content">
+        </summary>
+        <div class="job--details">
             <ul>
                 <li><strong>Converted websites from old to new CMS</strong> Served as in-house CMS expert for all future site planning, development and training on the new CMS. Responsible for the UI of all sites developed by Information Science.</li>
                 <li><strong>Created front-end for web applications</strong> used to select and download bird observations. Enhanced application used in stand-alone kiosks for observations using Adobe Flex. I developed sites in Plone using TAL, HTML, Javascript and Python.</li>
             </ul>
         </div>
-    </section>
-    <section class="cv--stop">
-        <header>
+    </details>
+    <details class="job--summary">
+        <summary class="job--title">
             <h3>Web and Graphic Designer</h3>
             <h4>Cornell Center for Materials Research</h4>
             <h5>May 2002 &mdash; Oct 2005</h5>
-        </header>
-        <div class="cv--stop-content">
+        </summary>
+        <div class="job--details">
             <ul>
                 <li><strong>Created and maintained all public and internal websites</strong>, including web registrations for the various Center functions, design and development of the searchable online ‘Ask a Scientist!’ database, and web application and selection process for REU and RET.</li>
                 <li><strong>Acted as brand custodian to manage and enhance the visual identity</strong> of the Center in all printed and digital materials, ensuring consistency across all touchpoints.</li>
             </ul>
         </div>
-    </section>
-    <section class="cv--stop">
-        <header>
+    </details>
+    <details class="job--summary">
+        <summary class="job--title">
             <h3>Web Designer, Research Assistant</h3>
             <h4>Institute for the Study of the Continents &mdash; Cornell University</h4>
             <h5>May 2000 &mdash; May 2002</h5>
-        </header>
-        <div class="cv--stop-content">
+        </summary>
+        <div class="job--details">
             <ul>
                 <li><strong>Created earth science educational website</strong> aimed at school grades K-16</li>
                 <li><strong>Conducted user testing</strong> in a live setting with undergraduate intro geo students</li>
                 <li><strong>Created interactive learning modules</strong> using Java and Flash</li>
             </ul>
         </div>
-    </section>
+    </details>
 </section>
