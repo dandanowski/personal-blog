@@ -5,7 +5,7 @@
     position: relative;
     padding: 24px 0;
     background: $grey-color-light;
-    // overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -97,15 +97,12 @@
         }
 
         .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 8px;
-            text-align: center;
+            display: grid;
+            height: 100%;
+            width: 100%;
 
             >svg {
+                margin: auto;
                 fill: $grey-color-dark;
             }
         }
@@ -123,12 +120,13 @@
         .page-link {
             display: block;
             padding: 4px 8px;
+            border-radius: 0;
 
             &:not(:last-child) {
                 margin-right: 0;
             }
 
-            margin-left: 24px;
+            // margin-left: 24px;
         }
     }
 }
@@ -141,7 +139,9 @@
 
 @include media-query($on-palm) {
     .site-title {
-        top: 10%;
-        @include relative-font-size(4.8);
+        top: 20%;
+        // position: relative;
+        @include relative-font-size(4.2);
+        // font-weight: bold;
     }
 }
