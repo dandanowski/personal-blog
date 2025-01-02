@@ -8,15 +8,19 @@
 {% if related_posts %}
 <div class="related-posts">
     <h2>Related</h2>
-    <ul>
-        {% for post in related_posts %}
+    <nav class="card--list">
+        {% for post in related_posts limit: 6 %}
             {% if post.id != page.id %}
-            <li>
-                <h4><a href="{{ post.url }}">{{post.title}}</a></h4>
-                {{post.excerpt}}
-            </li>
+            <a class="card" href="{{ post.url }}">
+                <div class="card--header">
+                    <h4>{{post.title}}</h4>
+                </div>
+                <div class="card--content">
+                    {{post.excerpt | strip_html}}
+                </div>
+            </a>
             {% endif %}
         {% endfor %}
-    </ul>
+        </nav>
 </div>
 {% endif %}

@@ -1,0 +1,53 @@
+.home-content {
+    margin-block-start: -48px;
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 16px;
+        justify-content: space-between;
+        align-items: center;
+
+        .intro {
+            flex: 3;
+            position: relative;
+            top: -40px;
+            // right: -64px;
+            max-width: 640px;
+            margin-left: 64px;
+            padding: 32px 40px;
+            background: $surface-color;
+            border-radius: 16px;
+            border-block-end: 1px solid $grey-color-dark;
+            transform: rotate(1.5deg);
+
+            h1 {
+                @include relative-font-size(2.4);
+                line-height: 3.2rem;
+            }
+
+            h3 {
+                text-align: right;
+            }
+        }
+    }
+
+    .page-heading {
+        flex: 2;
+        line-height: 1em;
+    }
+}
+
+
+@include media-query($on-palm) {
+    .home-content header {
+        display: block;
+
+        .intro {
+            top: -64px;
+            right: 0;
+            margin: 0;
+            transform: scale(0.8) rotate(1.5deg);
+        }
+    }
+}

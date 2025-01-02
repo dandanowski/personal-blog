@@ -132,8 +132,11 @@
     font-weight: normal;
   }
 
-  &:hover h3 {
-    color: $brand-color;
+  &:hover {
+    color: $brand-color !important;
+    &::after {
+      color: $brand-color !important;
+    }
   }
 
   @include media-query($on-palm) {

@@ -34,6 +34,15 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
+// Cards
+// $card--shadow: 4px 4px 16px rgba(0, 0, 0, 0.12);
+// $card--shadow-raised: 8px 8px 24px rgba(0, 0, 0, 0.08);
+$card--shadow: 
+  2px 2px 4px rgba(0, 0, 0, 0.48),
+  4px 4px 8px rgba(0,0,0,0.24);
+$card--shadow-raised: 4px 4px 8px rgba(0, 0, 0, 0.24);
+
+
 // Width of the content area
 $content-width:    800px !default;
 
@@ -75,8 +84,9 @@ $on-desktop-large: 1600px !default;
   "custom/site-header",
   "custom/site-footer",
   "custom/page-content",
+  "custom/card",
   "custom/posts",
-  "custom/special-bits",
+  "custom/home",
   "custom/cv",
   "custom/syntax-highlighting"
 ;
