@@ -7,8 +7,8 @@
 $base-font-family: Raleway, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   10px !default;
 $base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 1.4 !default;
 $base-line-height: 1.5 !default;
+$small-font-size:  $base-font-size * 1.4 !default;
 
 // $heading-font-family: Montserrat, "sans-serif";
 $heading-font-family: Bitter, "sans-serif";
@@ -25,14 +25,31 @@ $siteTitle-font-weight: 900;
 
 $spacing-unit:     24px !default;
 
-$text-color:       #000000CC !default;
-$background-color: #eee !default;
-$surface-color:    #fff !default;
-$brand-color:      green !default;
+$color--gray-01: #333;
+$color--gray-02: #666;
+$color--gray-03: #999;
+$color--gray-04: #CCC;
+$color--gray-05: #DDD;
+$color--gray-06: #EEE;
+$color--gray-07: #FFF;
 
-$grey-color:       #666 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$color--green-01: green;
+$color--green-02: green;
+$color--green-03: green;
+$color--green-04: green;
+$color--green-05: green;
+$color--green-06: green;
+$color--green-07: green;
+
+$grey-color:       $color--gray-02 !default;
+$grey-color-light: $color--gray-04 !default;
+$grey-color-dark:  $color--gray-01 !default;
+
+$text-color:       $color--gray-01 !default;
+$background-color: $color--gray-06 !default;
+$surface-color:    $color--gray-07 !default;
+$brand-color:      $color--green-04 !default;
+
 
 $table-text-align: left !default;
 
@@ -40,9 +57,9 @@ $table-text-align: left !default;
 // $card--shadow: 4px 4px 16px rgba(0, 0, 0, 0.12);
 // $card--shadow-raised: 8px 8px 24px rgba(0, 0, 0, 0.08);
 $card--shadow: 
-  2px 2px 4px rgba(0, 0, 0, 0.48),
-  4px 4px 8px rgba(0,0,0,0.24);
-$card--shadow-raised: 4px 4px 8px rgba(0, 0, 0, 0.24);
+  2px 2px 4px rgba($color--gray-01, 0.48),
+  4px 4px 8px rgba($color--gray-01,0.24);
+$card--shadow-raised: 4px 4px 8px rgba($color--gray-01, 0.24);
 
 
 // Width of the content area

@@ -7,8 +7,8 @@
 # - name: Lab
 #   link: /s/lab
 
-# - name: About
-#   link: /s/backstory
+- name: About
+  link: /s/backstory
 
 - name: CV
   link: /s/cv
