@@ -10,7 +10,8 @@ $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 1.4 !default;
 $base-line-height: 1.5 !default;
 
-$heading-font-family: Montserrat, "sans-serif";
+// $heading-font-family: Montserrat, "sans-serif";
+$heading-font-family: Bitter, "sans-serif";
 $heading-font-weight: 900;
 
 $caption-font-family: "Shadows Into Light Two", "Rock Salt", serif;
@@ -18,7 +19,8 @@ $caption-font-family: "Shadows Into Light Two", "Rock Salt", serif;
 $caption-font-weight: 400;
 $caption-font-size: $base-font-size * 1.2 !default;
 
-$siteTitle-font-family: Montserrat, "sans-serif";
+// $siteTitle-font-family: Montserrat, "sans-serif";
+$siteTitle-font-family: Bitter, "sans-serif";
 $siteTitle-font-weight: 900;
 
 $spacing-unit:     24px !default;

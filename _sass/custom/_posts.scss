@@ -11,7 +11,7 @@
     line-height: 1.2;
 
     @include media-query($on-laptop) {
-      @include relative-font-size(3.2);
+      // @include relative-font-size(4.6);
     }
   }
 
@@ -24,6 +24,20 @@
   }
 }
 
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 $spacing-unit;
+  padding: $spacing-unit 0;
+  border: 1px solid var(--color-gray-04);
+  border-inline-start: 0;
+  border-inline-end: 0;
+  .post-tags {
+    display: flex;
+    gap: $spacing-unit/2;
+  }
+}
+
 .post-content {
   margin-bottom: $spacing-unit;
 
@@ -31,7 +45,7 @@
     @include relative-font-size(3.6);
 
     @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
+      // @include relative-font-size(2.5);
     }
   }
 
@@ -39,7 +53,7 @@
     @include relative-font-size(2.4);
 
     @include media-query($on-laptop) {
-      @include relative-font-size(1.6);
+      // @include relative-font-size(2);
     }
   }
 
@@ -47,7 +61,7 @@
     @include relative-font-size(1.8);
 
     @include media-query($on-laptop) {
-      @include relative-font-size(1.4);
+      // @include relative-font-size(1.4);
     }
   }
 }
