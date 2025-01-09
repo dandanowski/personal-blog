@@ -4,7 +4,9 @@ title: Meatloaf
 subtitle: A grandma specialty
 permalink:
 className: 
-tags: [Recipe, Grandma]
+tags:
+    - Recipe
+    - Grandma
 ---
 
 The boys love Grandma's meatloaf and who can blame them.

@@ -4,7 +4,8 @@ title: Carbonara
 subtitle: A quick and easy one for the kids
 permalink:
 className: 
-tags: [Recipe]
+tags:
+    - Recipe
 ---
 
 This dish is not terribly exciting, but very reliable to satisfy my boys.

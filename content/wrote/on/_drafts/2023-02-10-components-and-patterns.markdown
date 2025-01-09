@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Components & Patterns"
-tags: [Design system]
+tags:
+    - Design system
 ---
 Like many, listening to [Brad Frost](https://bradfrost.com/) talk about [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) was eye-opening for me. The concept of breaking down a design into its constituent parts that were reusable, and therefore consistently used, really resonated with me and changed how I approched designing digital products.
 

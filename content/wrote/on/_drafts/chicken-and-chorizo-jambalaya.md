@@ -4,7 +4,8 @@ title: Chicken and Chorizo Jambalaya
 subtitle: Just spicy enough
 permalink: /s/recipies/chicken-and-chorizo-jambalaya
 className: recipe
-tags: [Recipe]
+tags:
+    - Recipe
 ---
 
 A good chicken dinner with a little bit of spice that is good enough to keep the kids happy.

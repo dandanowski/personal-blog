@@ -2,7 +2,9 @@
 layout: post
 title: Rebranding the Northwest Vipers
 subtitle: A new logo for a local sports club
-tags: [Design, Volunteering]
+tags:
+    - Design
+    - Volunteering
 ---
 The amateur American Football Club that I play for, the [Northwest Vipers](https://northwestvipers.com), is celebrating its tenth year as a club in 2024 and decided that it was time to change the name and tidy up its brand.
 

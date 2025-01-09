@@ -4,7 +4,9 @@ title: Scaling a rigid design system
 subtitle: Atolls design system v2
 permalink: /s/case-study/atolls-design-system-v2
 className: case-study
-tags: [Case study, Design system]
+tags:
+    - Case study
+    - Design system
 ---
 
 I was brought to [Atolls](https://www.atolls.com/) to scale the newly created design system which was custom made for a subset of its product suite.

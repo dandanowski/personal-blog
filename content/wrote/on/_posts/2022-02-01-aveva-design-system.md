@@ -5,7 +5,9 @@ subtitle: AVEVA Design System
 permalink: /s/case-study/aveva-design-system
 className: case-study
 showPrimary: false
-tags: [Case study, Design system]
+tags:
+    - Case study
+    - Design system
 ---
 
 The transition from acquired desktop software to a feature of the [AVEVA](https://www.aveva.com/) cloud offering made branding and unified user experience a high priority.

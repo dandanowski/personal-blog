@@ -4,7 +4,9 @@ title: Pot Cheese and Noodles
 subtitle: A grandma specialty
 permalink:
 className: 
-tags: [Recipe, Grandma]
+tags:
+    - Recipe
+    - Grandma
 ---
 
 Hoping this goes over like the Carbonara.

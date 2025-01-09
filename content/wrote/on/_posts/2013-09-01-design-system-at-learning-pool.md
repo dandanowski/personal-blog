@@ -3,8 +3,10 @@ layout: post
 title: Wrangling 300+ themes for an LMS
 subtitle: Design system at Learning Pool
 permalink: /s/case-study/design-system-at-learning-pool
-tags: [Case study, Design system]
 className: case-study
+tags:
+    - Case study
+    - Design system
 ---
 
 Theme deployment and maintenance was drastically improved by moving theme settings to an indepedent repository. Further process automations provided reduced bug and feature request times.

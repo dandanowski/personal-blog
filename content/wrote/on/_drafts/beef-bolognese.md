@@ -4,7 +4,8 @@ title: Beef Bolognese
 subtitle: Family favorite
 permalink: /s/recipies/beef-bolognese
 className: recipe
-tags: [Recipe]
+tags: 
+    - Recipe
 ---
 
 We mainly serve this over pasta. This is good to make in bulk and use throughout the week. This can be used in a lasagna as well.
